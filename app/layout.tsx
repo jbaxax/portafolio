@@ -4,6 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 const urbanist = Urbanist({
   subsets: ["latin"],
 });
@@ -22,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${urbanist.className} `}>
         <Navbar />
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>

@@ -7,6 +7,12 @@ html, body{
   background: #1f1934;
 }
 
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f5741c;
+}
+
 main{
   background: #393a47;
   height: 100vh;
